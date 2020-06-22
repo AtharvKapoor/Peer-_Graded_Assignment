@@ -158,6 +158,7 @@ mydata2 <- cbind(Average_Walking, Average_Walking_Up, Average_Walking_Down, Aver
 ##Make Feature a labeled column rather than row names
 ## in accordance with tidy data theory
 
+
 Feature <- rownames(mydata2)
 rownames(mydata2) <- NULL
 mydata2 <- cbind(Feature, mydata2)
